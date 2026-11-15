@@ -3,7 +3,7 @@
 <h3 align="center">An offline ERP for a plywood and laminate gallery, built end to end.</h3>
 
 <p align="center">
-Purchases and sales · stock as a passbook · order-first selling · dispatch · receipts with advances · party ledgers · audited real data · encrypted backups<br>
+Purchases and sales · stock as a passbook · order-first selling · dispatch · receipts with advances · the Bill Book for verbal orders · party ledgers · audited real data · encrypted backups<br>
 <b>Desktop · fully offline · one installer · no cloud server</b>
 </p>
 
@@ -11,6 +11,19 @@ Purchases and sales · stock as a passbook · order-first selling · dispatch ·
 > All screens and the video use made-up demo data.
 
 ---
+
+## New: the Bill Book
+
+**[▶ The Bill Book (video, under three minutes)](video/mica-studio-bill-book.mp4)** — orders that arrive on the phone are now written down once, in a real-looking register inside the app: typed, numbered, searchable, and one tap away from the invoice.
+
+[![The Bill Book](screenshots/bill-book-02-open-book.png)](video/mica-studio-bill-book.mp4)
+
+| | |
+|---|---|
+| ![The closed book](screenshots/bill-book-01-closed-book.png) | ![The invoice, already filled](screenshots/bill-book-06-invoice-filled.png) |
+| **A real book** with the company mark on the cover; click, and it opens | **"Make sales invoice"** fills the invoice from the order; everything stays editable |
+| ![An older page and its slip](screenshots/bill-book-05-older-page.png) | ![Needs buying](screenshots/bill-book-08-needs-buying.png) |
+| **Every day is a page**; each order has a slip and a stamp: noted, stock ready, invoiced, dispatched | **A small book beside every invoice**; on a purchase it lists what customers were promised but nobody has bought yet |
 
 ## Watch it
 

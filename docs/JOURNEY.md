@@ -91,7 +91,19 @@ Now **Receipts & Payments** is a page of its own: choose the party, the amount, 
 and can be put on a bill later. If it was really for old bills from before the system, the owner books it as an **earlier balance**: an opening entry of the same amount is posted and the receipt settles it, so the ledger reads nil,
 the receipt reads "against earlier balance", and due dates and overdue figures do not move.
 
+## Chapter 12 - A bad week, a clean slate, and a notebook
+
+Real use is the best test. A few things went wrong at once: some invoices were entered under the wrong vertical (Plywood, Mica or WPC) so a few were missed, and the first-in-first-out batch habit let stock be used against the wrong invoice. Each small problem was fixable, but together they were a swamp.
+The owner stopped patching, asked the accountant, and made a **clean-slate decision**: as on a fixed date there is no stock on hand and nothing pending; everything still open was adjusted through a dedicated "for adjustment" account, so that the new month's books start clean.
+
+One lesson came back to the software. The stock reset step spared stock already reserved by an invoice, but stock **bought for a customer's verbal order that had no invoice yet** looked free and was zeroed, so the owner had to enter a duplicate purchase. The root cause was not the reset: **verbal orders lived nowhere**. They were scribbled in a notebook, sometimes unreadable.
+
+So the notebook moved into the app. The **Bill Book** (see [FEATURES.md](FEATURES.md)) is a register that everybody can write in: typed, numbered, searchable, with a stamp for where each order stands. It was mocked first as a clickable page to settle the look and the flow
+(three requirements came back from the mock: the invoice must be filled from the order but stay editable, the cover must carry the company's own mark, and it must be open to everyone, no permissions), then built, tested and shipped within a day.
+It also changes the buying side: the purchase screen now shows what customers were promised but nobody has bought yet, so stock bought for an order is never mistaken for free stock.
+Two small fixes rode along, both from watching someone use the screens: the item suggestions now open as a short list under the line being typed instead of covering the page, and the Mica / Plywood / WPC switch moved to sit just above the lines it controls.
+
 ## Where it stands
 
-Offline, one installer, one live database shared privately between PCs, stock as a ledger, order-first selling, audited real data, previewed corrections, receipts and payments with advances, encrypted backups, and a test suite that drives real programs.
+Offline, one installer, one live database shared privately between PCs, stock as a ledger, order-first selling, audited real data, previewed corrections, receipts and payments with advances, a Bill Book for verbal orders, encrypted backups, and a test suite that drives real programs.
 The full engineering detail is in the code and the tests; this file is the story of how we got there.

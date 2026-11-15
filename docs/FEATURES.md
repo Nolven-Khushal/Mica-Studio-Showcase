@@ -10,14 +10,26 @@ A complete tour of the product, screen by screen. (Screens shown in the video us
 
 ## Buying
 - **Purchase invoices** for three verticals (Plywood, WPC, Mica), each with the line columns its paper invoice has. One vertical per purchase invoice.
+- **Item suggestions** open as a short list right under the line being typed (never over it), searching every word across the item and its design, size and supplier.
 - **Fast entry:** copy lines from the supplier's previous invoice, remembered terms, GST and tax type picked automatically, duplicate invoice numbers refused, a wrong total flagged.
 - **Paper bill attached** to the invoice, and a side panel that opens any invoice without leaving the list.
 - **Import from a supplier's Excel register**, including discount columns, and credit memos matched to the invoices they correct.
 - **Purchase orders:** pick what you need, send the order to the supplier's WhatsApp group in one go; it shows as received when the invoice is entered.
 - **"Sold but not bought yet"** card on a new purchase invoice: every waiting item with its quantity, added in one click.
 
+## The Bill Book (new)
+Customer orders arrive on the phone and across the counter. They used to go into a paper notebook, and handwriting is not always readable. The Bill Book is that notebook, inside the app, open to everyone who can log in.
+- **A real, hardbound-looking register**: closed on the shelf with the company mark on its cover, opened with a click. Each page is one day; the arrows (or the keyboard) turn the page.
+- **Write an order once**: customer (a saved customer fills the phone number), what they want from the product list per vertical, quantities, promised date, who took it. A serial number and the time are stamped by the app and never reused, not even by a cancelled order.
+- **Half-sure what the customer meant?** Write it as they said it. The line stays highlighted until somebody clarifies it.
+- **Every order has a slip and a stamp**: Noted, Stock ready, Invoiced, Dispatched. The last two are read from the sales invoice itself, so they cannot drift.
+- **Find anything in a second**: name, phone, order number, design.
+- **"Make sales invoice"** opens a new invoice already filled: customer, items, quantities, stock picked (and what is not in stock becomes an order-first line). Every field stays editable, so half-written details can be fixed before saving, and saving stamps the order.
+- **A small book beside every invoice**: on a sales invoice it lists the open orders; on a purchase invoice it lists **what customers were promised but nobody has bought yet**, added up per product, and one tap puts it on the invoice. Saving the purchase marks those orders "stock ready". A quick note box writes a phone order without leaving the invoice.
+- **Promised is not free**: open orders are visible next to stock, and the stock reset warns when orders are still open.
+
 ## Selling
-- **Sales invoices** with one vertical or several on the same bill; saved customer or walk-in; GST type from the GSTIN.
+- **Sales invoices** with one vertical or several on the same bill (the Mica / Plywood / WPC switch sits right above the lines it controls); saved customer or walk-in; GST type from the GSTIN.
 - **Pick the exact batch** for every line, so cost and profit are exact. The selling price fills from the rate sheet and any change is flagged to the owner.
 - **Order first (not in stock):** sell before the goods arrive. The line waits, shows as negative stock, and fills by itself, oldest sale first, when the purchase invoice is entered.
 - **Freight loading / unloading** as a separate no-GST charge, shown as income.
