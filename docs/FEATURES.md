@@ -34,7 +34,12 @@ Customer orders arrive on the phone and across the counter. They used to go into
 - **Order first (not in stock):** sell before the goods arrive. The line waits, shows as negative stock, and fills by itself, oldest sale first, when the purchase invoice is entered.
 - **Freight loading / unloading** as a separate no-GST charge, shown as income.
 - **Official GST tax invoice** export, PDF and WhatsApp, with the paper bill attached.
+- **Invoice numbers continue from whatever was typed last** (469, then 470; or MS/2627/11566, then 11567), and the next number can be fixed in Settings.
 - **Sales list** with profit, dispatch and payment status per invoice, filters, an Excel-style lines view, saved views.
+
+- **Where did this batch go?** A purchase invoice lists, under every line, the sales invoices that took pieces from it and the customer, each a link to that invoice.
+- **Same item typed two ways?** The app notices a new item that looks like one you already have and asks before it makes a second stock; an owner screen finds look-alike items already created and merges them, joining their stock, orders and waiting sales.
+- **SQM / RFT help:** a live working line under the quantity boxes ("1 pc = 2.9768 SQM, 12 pcs = 35.72 SQM") and a short guide, so the paper invoice format stays untouched but is easy to fill.
 
 ## Dispatch and delivery
 - An invoice should leave within **three days**; late ones turn red.
@@ -43,6 +48,7 @@ Customer orders arrive on the phone and across the counter. They used to go into
 - **Board view:** cards for To dispatch, In transit, Delivered.
 
 ## Notes
+- **Rate-difference notes:** when only the price was wrong, a note needs no stock and moves none; the quantity is only the basis of the amount.
 - **Credit and debit notes** against sales or purchase invoices: returns, price corrections, extra charges. Each moves stock and money together, with the GST right.
 - Money-only notes (no goods) for supplier credits and rate differences.
 
