@@ -48,7 +48,7 @@ Customer orders arrive on the phone and across the counter. They used to go into
 - **Board view:** cards for To dispatch, In transit, Delivered.
 
 ## Notes
-- **Rate-difference notes:** when only the price was wrong, a note needs no stock and moves none; the quantity is only the basis of the amount.
+- **Rate-difference notes:** when only the price was wrong, a note is one amount against the whole invoice (with or without GST); it needs no stock, moves none, and flows into the party ledger, sales and profit.
 - **Credit and debit notes** against sales or purchase invoices: returns, price corrections, extra charges. Each moves stock and money together, with the GST right.
 - Money-only notes (no goods) for supplier credits and rate differences.
 
