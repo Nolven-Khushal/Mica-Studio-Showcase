@@ -38,7 +38,7 @@ Customer orders arrive on the phone and across the counter. They used to go into
 - **Sales list** with profit, dispatch and payment status per invoice, filters, an Excel-style lines view, saved views.
 
 - **Where did this batch go?** A purchase invoice lists, under every line, the sales invoices that took pieces from it and the customer, each a link to that invoice.
-- **Same item typed two ways?** The app notices a new item that looks like one you already have and asks before it makes a second stock; an owner screen finds look-alike items already created and merges them, joining their stock, orders and waiting sales.
+- **One spelling for every item:** on a new purchase invoice and on a sales "Order first" line the item is picked from a searchable list (design, finish, size and thickness fill in by themselves), so the same goods can never become two items with two stocks. A genuinely new item is added on purpose with a small form. An owner screen finds look-alike items created earlier and merges them, joining their stock, orders and waiting sales.
 - **SQM / RFT help:** a live working line under the quantity boxes ("1 pc = 2.9768 SQM, 12 pcs = 35.72 SQM") and a short guide, so the paper invoice format stays untouched but is easy to fill.
 
 ## Dispatch and delivery
